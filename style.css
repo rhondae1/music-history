@@ -1,8 +1,4 @@
-.box {
-  height: 553px;
-  width: 812px:
-  padding: 4px:
-}
+/*BODY STYLING*/
 
 /*NAVIGATION STYLING*/
 .nav a {
@@ -14,10 +10,18 @@
   display: flex;
 }
 
+li > a:hover {
+  color: red;
+}
+
+body, form {
+  height: 100%;
+}
+
 
 #bar {
   width: 98.5%;
-  height: 100px;
+  height: 98.5px;
   border: 3px solid black;
   background-color: #ffb4b0;
   margin: 10px;
@@ -29,20 +33,6 @@ nav > ul > li {
   display: inline
 }
 
-/*SONG LIST STYLING*/
-
-.songName {
-  font-size: 23px;
-}
-
-
-.info {
-  color: black;
-}
-
-.art {
-  font-size: 20px;
-}
 
 /*ARTIST SELECTION STYLING*/
 
@@ -62,7 +52,7 @@ nav > ul > li {
 
 #titles {
   border: 3px solid black;
-  width: 70%;
+  width: 85%;
   height: 523px;
   float: right;
   padding: 6px;
@@ -78,4 +68,19 @@ button {
   border-radius: 10px;
   width: 75%;
   
+}
+
+/*SONG LIST STYLING*/
+
+.songName {
+  font-size: 23px;
+}
+
+
+.info {
+  color: black;
+}
+
+.art {
+  font-size: 20px;
 }

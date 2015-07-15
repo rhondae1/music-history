@@ -1,14 +1,27 @@
 /*BODY STYLING*/
 
+/*.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 300px;  
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+
 /*NAVIGATION STYLING*/
+
+/*.flex-container > nav { 
+  flex: 1 100%; 
+}
 .nav a {
   background: #ffb4bo;
  
 }
+*/
 
-.flex {
-  display: flex;
-}
 
 li > a:hover {
   color: red;
@@ -20,11 +33,11 @@ body, form {
 
 
 #bar {
-  width: 98.5%;
-  height: 98.5px;
+  width: 0;
+  height: 0;
   border: 3px solid black;
   background-color: #ffb4b0;
-  margin: 10px;
+  margin: 0px;
   text-align: left;
   float: left;
 }
@@ -34,15 +47,20 @@ nav > ul > li {
 }
 
 
-/*ARTIST SELECTION STYLING*/
+/*ARTIST SELECTION AND SONG BAR STYLING*/
 
+
+/*.flex-container > header, 
+.flex-container > footer { 
+  flex: 1 100%; */
+}
 #selections {
-  width: 25%;
+  width: 0;
   border: 3px solid black;
   background-color: #4dd7fa;
-  padding: 6px;
-  float: left;
-  margin-left: 3px;
+  padding: 0px;
+  float: left;  
+  margin-left: 0px;
  
 }
 
@@ -84,3 +102,41 @@ button {
 .art {
   font-size: 20px;
 }
+
+/*.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 300px;  
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-container > header, 
+.flex-container > footer { 
+  flex: 1 100%; 
+}
+
+.sidebar__left{ 
+  flex-grow: 3;
+}
+
+.sidebar__right { 
+  flex-grow: 1;
+}
+
+.main {
+  flex-grow: 5;
+}
+
+.flex-item {  
+  background: pink;
+  padding: 10px;
+  width: 100px;
+  border: 3px solid rgba(0,0,0,.2);
+  
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}*/

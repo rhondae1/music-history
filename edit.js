@@ -19,3 +19,7 @@ for (var i = songs.length + 1; i >= 0; i = i+1) {
 var phrase = ">";
 var newPhrase = phrase.replace(/o/g, "-");
 alert(newPhrase);
+
+var songs[i];
+document.getElementById("titles");
+element.innerHTML = songs;

@@ -1,6 +1,8 @@
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify.content: 
+
+
+.nav {
+  background-color: pink;
+  display: inline;
 }
+
 

@@ -2,7 +2,7 @@
 
 .nav {
   background-color: pink;
-  display: inline;
+  display: inline-block;
 }
 
 
